@@ -33,7 +33,7 @@ function OurStory() {
                 type: 'image/jpeg',
               },
             ],
-            site_name: 'Ope We Eloped',
+            site_name: 'John + Alexis',
           }}
           twitter={{
             handle: '@jlambrecht265',
