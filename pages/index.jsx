@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Bergen + Jordan 4ever</title>
+        <title>Alexis + John</title>
       </Head>
 
       <Meta />
