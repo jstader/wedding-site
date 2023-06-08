@@ -21,7 +21,7 @@ function OurStory() {
             title: 'Our Story',
             type: 'website',
             locale: 'en_IE',
-            site_name: 'Bergen + Jordan 4Ever',
+            site_name: 'John + Alexis',
             description:
               'Bergen Johnston and Jordan Lambrecht got Secret Married on June 28th, 2020. Now they&apso; celebrating with lunch.',
             images: [
