@@ -1,6 +1,6 @@
 import InnerWrapper from '@parts/InnerWrapper'
 import PageSection from '@parts/PageSection'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 function Photos() {
   return (

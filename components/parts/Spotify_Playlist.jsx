@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import useSWR from 'swr'
 import fetcher from '@lib/fetcher'
 import { pluralize } from '@lib/helpers'

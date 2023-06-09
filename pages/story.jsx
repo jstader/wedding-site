@@ -2,7 +2,7 @@ import H2 from '@typography/H2'
 import H3 from '@typography/H3'
 import InnerWrapper from '@parts/InnerWrapper'
 import PageSection from '@parts/PageSection'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import Button_Filled_LArrow from '@parts/Button_Filled_LArrow'
 import OurStory_Landing from '@sections/OurStory_Landing'
 import { NextSeo } from 'next-seo'
