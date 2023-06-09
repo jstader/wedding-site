@@ -142,12 +142,14 @@ function OurStory() {
               blurDataURL={'/img/bergen-jordan-courthouse-5.jpg'}
               src={'/img/bergen-jordan-courthouse-5.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill ={true}
+              //layout={'fill'}
+              //objectFit={'cover'}
+              //style={{
+              //  maxWidth: "100%",
+              //  height: "auto",
+              //}} 
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1'>
             <Image
@@ -155,12 +157,14 @@ function OurStory() {
               blurDataURL={'/img/bergen-jordan-courthouse-3s.jpg'}
               src={'/img/bergen-jordan-courthouse-3.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill ={true}
+              //layout={'fill'}
+              //objectFit={'cover'}
+              //style={{
+              //  maxWidth: "100%",
+              //  height: "auto",
+              //}} 
+              />
           </div>
           <div className='relative w-full aspect-square'>
             <Image
@@ -168,12 +172,14 @@ function OurStory() {
               blurDataURL={'/img/bergen-jordan-courthouse-1.jpg'}
               src={'/img/bergen-jordan-courthouse-1.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill ={true}
+              //layout={'fill'}
+              //objectFit={'cover'}
+              //style={{
+              //  maxWidth: "100%",
+              //  height: "auto",
+              //}} 
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1'>
             <Image
@@ -181,12 +187,14 @@ function OurStory() {
               blurDataURL={'bergen-jordan-courthouse-4.jpg'}
               src={'/img/bergen-jordan-courthouse-4.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill ={true}
+              //layout={'fill'}
+              //objectFit={'cover'}
+              //style={{
+              //  maxWidth: "100%",
+              //  height: "auto"
+              //}} 
+              />
           </div>
         </div>
         <InnerWrapper>

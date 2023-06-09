@@ -33,12 +33,8 @@ function OurStory_Landing() {
               blurDataURL={'/img/bergen-jordan-random-1.jpg'}
               src={'/img/bergen-jordan-random-1.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -46,12 +42,8 @@ function OurStory_Landing() {
               blurDataURL={'bergen-jordan-random-1.jpg'}
               src={'/img/bergen-jordan-random-2.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -59,12 +51,8 @@ function OurStory_Landing() {
               blurDataURL={'bergen-jordan-random-1.jpg'}
               src={'/img/bergen-jordan-random-3.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -72,12 +60,8 @@ function OurStory_Landing() {
               blurDataURL={'bergen-jordan-random-1.jpg'}
               src={'/img/bergen-jordan-random-4.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
         </div>
       </div>

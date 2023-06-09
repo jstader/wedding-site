@@ -33,12 +33,8 @@ function Landing() {
               blurDataURL={'/img/jordan-bergen-bw-1.jpg'}
               src={'/img/jordan-bergen-bw-1.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
 
           <div className='relative w-full aspect-w-1 aspect-h-1    opacity-0 fadeIn'>
@@ -47,12 +43,8 @@ function Landing() {
               blurDataURL={'/img/jordan-bergen-bw-2.jpg'}
               src={'/img/jordan-bergen-bw-2.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill ={true}
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1   opacity-0 fadeIn'>
             <Image
@@ -60,12 +52,8 @@ function Landing() {
               blurDataURL={'/img/jordan-bergen-bw-3.jpg'}
               src={'/img/jordan-bergen-bw-3.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -73,12 +61,8 @@ function Landing() {
               blurDataURL={'/img/jordan-bergen-bw-4.jpg'}
               src={'/img/jordan-bergen-bw-4.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
         </div>
         <div className='flex flex-col justify-end py-12  mt-12 w-full h-full font-black sm:hidden lg:flex opacity-0 fadeIn'>

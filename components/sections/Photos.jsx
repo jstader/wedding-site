@@ -14,12 +14,8 @@ function Photos() {
               blurDataURL={'/img/jordan-bergen-snow-1.jpg'}
               src={'/img/jordan-bergen-snow-1.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -28,12 +24,8 @@ function Photos() {
               blurDataURL={'/img/jordan-bergen-snow-4.jpg'}
               src={'/img/jordan-bergen-snow-4.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -42,12 +34,8 @@ function Photos() {
               blurDataURL={'/img/jordan-bergen-snow-2.jpg'}
               src={'/img/jordan-bergen-snow-2.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -56,12 +44,8 @@ function Photos() {
               blurDataURL={'/img/jordan-bergen-snow-3.jpg'}
               src={'/img/jordan-bergen-snow-3.jpg'}
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
-              layout={'fill'}
-              objectFit={'cover'}
-              style={{
-                maxWidth: "100%",
-                height: "auto"
-              }} />
+              fill={true}
+              />
           </div>
         </div>
       </InnerWrapper>
