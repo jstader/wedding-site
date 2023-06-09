@@ -788,7 +788,7 @@ function RSVP() {
         </form>
       </div>
     </div>
-  )
+  );
 }
 
 export default RSVP
