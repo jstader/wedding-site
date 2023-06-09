@@ -32,7 +32,9 @@ export default function Spotify_Playlist() {
                 fill
                 sizes="100vw"
                 style={{
-                  objectFit: "cover"
+                  objectFit: "cover",
+                  maxWidth: "100%",
+                  height: "auto"
                 }} />
             </div>
 
@@ -78,7 +80,11 @@ export default function Spotify_Playlist() {
                       height={32}
                       width={32}
                       src={track.albumArt}
-                      alt='spotify album cover' />
+                      alt='spotify album cover'
+                      style={{
+                        maxWidth: "100%",
+                        height: "auto"
+                      }} />
 
                     <div className='flex flex-col justify-center'>
                       <p className='pb-1 text-wine mt-0 mb-0 py-0 leading-none text-sm md:text-md line-clamp-2 '>
