@@ -1,7 +1,7 @@
 import H2 from '@typography/H2'
 import InnerWrapper from '@parts/InnerWrapper'
 import PageSection from '@parts/PageSection'
-import Image from "next/legacy/image"
+import Image from "next/image"
 function Registry({ num }) {
   return (
     <PageSection color={'cream-light'} id='answers'>

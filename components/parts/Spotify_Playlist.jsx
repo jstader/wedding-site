@@ -1,4 +1,4 @@
-import Image from "next/legacy/image"
+import Image from "next/image"
 import useSWR from 'swr'
 import fetcher from '@lib/fetcher'
 import { pluralize } from '@lib/helpers'
@@ -24,14 +24,16 @@ export default function Spotify_Playlist() {
             <div className='relative rounded-md overflow-hidden md:mx-auto w-32 h-32 md:w-64 md:h-64'>
               <Image
                 src={data.albumCoverImage}
-                layout='fill'
-                objectFit='cover'
                 placeholder='blur'
                 blurDataURL={data.albumCoverImage}
                 quality={25}
                 className='w-full h-full absolute'
                 alt={data.album}
-              />
+                fill
+                sizes="100vw"
+                style={{
+                  objectFit: "cover"
+                }} />
             </div>
 
           </Link>
@@ -73,12 +75,10 @@ export default function Spotify_Playlist() {
                   <div className='flex gap-4 md:gap-x-4'>
                     <Image
                       quality={50}
-                      layout='fixed'
                       height={32}
                       width={32}
                       src={track.albumArt}
-                      alt='spotify album cover'
-                    />
+                      alt='spotify album cover' />
 
                     <div className='flex flex-col justify-center'>
                       <p className='pb-1 text-wine mt-0 mb-0 py-0 leading-none text-sm md:text-md line-clamp-2 '>

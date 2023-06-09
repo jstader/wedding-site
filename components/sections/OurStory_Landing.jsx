@@ -1,4 +1,4 @@
-import Image from "next/legacy/image"
+import Image from "next/image"
 import { useRef, useEffect } from 'react'
 import gsap from 'gsap'
 
@@ -35,7 +35,10 @@ function OurStory_Landing() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -45,7 +48,10 @@ function OurStory_Landing() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -55,7 +61,10 @@ function OurStory_Landing() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1 opacity-0 fadeIn'>
             <Image
@@ -65,11 +74,14 @@ function OurStory_Landing() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 export default OurStory_Landing

@@ -2,7 +2,7 @@ import H2 from '@typography/H2'
 import H3 from '@typography/H3'
 import InnerWrapper from '@parts/InnerWrapper'
 import PageSection from '@parts/PageSection'
-import Image from "next/legacy/image"
+import Image from "next/image"
 import Button_Filled_LArrow from '@parts/Button_Filled_LArrow'
 import OurStory_Landing from '@sections/OurStory_Landing'
 import { NextSeo } from 'next-seo'
@@ -144,7 +144,10 @@ function OurStory() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1'>
             <Image
@@ -154,7 +157,10 @@ function OurStory() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-square'>
             <Image
@@ -164,7 +170,10 @@ function OurStory() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='relative w-full aspect-w-1 aspect-h-1'>
             <Image
@@ -174,7 +183,10 @@ function OurStory() {
               alt={'Jordan Lambrecht and Bergen Johnston'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </div>
         <InnerWrapper>
@@ -226,6 +238,6 @@ function OurStory() {
         </InnerWrapper>
       </PageSection>
     </main>
-  )
+  );
 }
 export default OurStory

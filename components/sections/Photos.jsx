@@ -1,6 +1,6 @@
 import InnerWrapper from '@parts/InnerWrapper'
 import PageSection from '@parts/PageSection'
-import Image from "next/legacy/image"
+import Image from "next/image"
 
 function Photos() {
   return (
@@ -16,7 +16,10 @@ function Photos() {
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -27,7 +30,10 @@ function Photos() {
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -38,7 +44,10 @@ function Photos() {
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <div className='col-span-1 w-full aspect-w-3 aspect-h-5 relative grayscale'>
             <Image
@@ -49,11 +58,14 @@ function Photos() {
               alt={'Jordan Lambrecht and Bergen Johnston in the snow'}
               layout={'fill'}
               objectFit={'cover'}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </div>
       </InnerWrapper>
     </PageSection>
-  )
+  );
 }
 export default Photos
